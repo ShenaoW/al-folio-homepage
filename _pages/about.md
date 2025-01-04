@@ -1,25 +1,37 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <div class="contact-icons"> 
+      <a href="mailto:shenaowang@hust.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a> 
+      <a href="https://orcid.org/0000-0003-3818-3343" title="ORCID" rel="external nofollow noopener" target="_blank"><i class="ai ai-orcid"></i></a> 
+      <a href="https://scholar.google.com/citations?user=9uC3jPkAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a> 
+      <a href="https://github.com/ShenaoW" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a> 
+    </div>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, there! I’m a master student at Huazhong University of Science and Technology (HUST), supervised by Prof. [Haoyu Wang](https://howiepku.github.io/). Previously, I received my B.Eng. degree at Xidian University, under supervision of Prof. [Hui Li](https://web.xidian.edu.cn/lihui/index.html) in June 2023. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interest span system security and software engineering.
+Specifically, I focus on developing impactful, real-world solutions for detecting and defending against vulnerabilities in a wide range of systems, including Open-Source Software Supply Chains, Cross-Platform Endpoints, and LLM Infrastructures.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- OSS Security: NPM/PyPI code poisoning (ASE'23, ASE'24)
+- Endpoint Security: ransomware (CCS'24), miniapp security (ASE'23) & privacy (TOSEM, SaTS'23)
+- LLM Infra Security: pre-trained model supply chain (TOSEM, ASE'24)
+
+If you would like to reach me, please send an email to [shenaowang AT hust.edu.cn](mailto:shenaowang@hust.edu.cn)
+
+---
+
+## Selected Publications (Full List)
